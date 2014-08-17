@@ -36,6 +36,7 @@
 # Copyright 2014 Your name here, unless otherwise noted.
 #
 class postfix {
-
-
+  include postfix::package
+  include postfix::config
+  include postfix::service
 }
